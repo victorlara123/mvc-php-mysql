@@ -1,5 +1,5 @@
 <?php
-//organizamos bacan concatenamos los nombres para qeu coincidan 
+//organizamos bacan y  concatenamos los nombres para que coincidan 
  function cargarControlador($controlador){
      $nombreControlador=ucwords($controlador)."Controller";
      $archivoControlador='controllers/'.ucwords($controlador).'.php';  
