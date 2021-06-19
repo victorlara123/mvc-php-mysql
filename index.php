@@ -9,7 +9,8 @@ require_once  "controllers/Vehiculos.php";
 // $control->index(); 
 //se evalua el archivo  qeu se importa  en este casos  una vista  
 // require_once "views/vehiculos/vistarara.php"
-// metodo que preocese la   validaciones de la parte de los controladores miau asi es  listo para mergear   
+// metodo que preocese la   validaciones de la parte de los controladores miau asi es  listo para mergear 
+//volviendo a probar el merge remoto 
 
 if(isset($_GET['c'])){
     
