@@ -11,10 +11,10 @@ require_once  "controllers/Vehiculos.php";
 //se evalua el archivo  qeu se importa  en este casos  una vista  
 // require_once "views/vehiculos/vistarara.php"
 
-// metodo que preocese la   validaciones de la parte de los controladores
+// metodo que preocese la   validaciones de la parte de los controladores miau asi es
 
 if(isset($_GET['c'])){
-    $controlador =cargarControlador($_GET['c']);   
+    $controlador =cargarControlador($_GET['c']);      
     $cargarAccion($controlador,$_GET['a']);
     // if(isset($_GET['a'])){
     //     $cargarAccion($controlador,$_GET['a']);
