@@ -14,7 +14,7 @@
         <h2><?php echo $data["titulo"]?></h2>
         <br/>
         <br/>
-        <a href="">Agregar</a>
+        <a href="index.php?c=vehiculos&a=nuevo">Agregar</a>
         
         <table border="1" width="80%">
             <thead>

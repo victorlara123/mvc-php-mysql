@@ -12,6 +12,10 @@ require_once  "controllers/Vehiculos.php";
 // metodo que preocese la   validaciones de la parte de los controladores miau asi es  listo para mergear 
 //volviendo a probar el merge remoto 
 
+//pasos para mergear 
+// hacer cambio en la rama alterna, pushear cambios de la rama alterna, cambiar de rama  al aprincipal, hacer git merge alterna
+//agregar archivos, hacer commit, pushear  git add origin main  
+
 if(isset($_GET['c'])){
     
     $controlador =cargarControlador($_GET['c']);      
@@ -24,7 +28,8 @@ if(isset($_GET['c'])){
 
 }else{
     $controlador =cargarControlador(CONTROLADOR_PRINCIPAL);
-    cargarAccion(CONTROLADOR_PRINCIPAL,ACCION_PRINCIPAL);
+    $accionTmp=ACCION_PRINCIPAL;
+    $controlador->$accionTmp(); 
 }
   
 ?>

@@ -18,7 +18,7 @@
             $data["titulo"] ="Vehiculos";
             require_once "views/vehiculos/vehiculos_nuevo.php";
             
-
+            
         }
     }
 
